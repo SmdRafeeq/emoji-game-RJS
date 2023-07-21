@@ -1,0 +1,39 @@
+.nav-bar-container {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  background-color: #ffffff33;
+}
+
+.title-score-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  flex-basis: 80%;
+}
+
+.logo-title-con {
+  display: flex;
+  align-items: center;
+}
+
+.emoji-logo {
+  width: 24px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.scores-container {
+  display: flex;
+}
+
+.score {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 16px;
+}

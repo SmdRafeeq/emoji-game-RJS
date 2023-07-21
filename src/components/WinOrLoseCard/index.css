@@ -1,0 +1,64 @@
+.win-or-loss-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+  padding: 16px;
+  border-radius: 24px;
+  background-color: #ffffff33;
+  border: 3px solid #ffffff33;
+}
+
+.details-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  order: 1;
+}
+
+.game-status {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.current-score-label {
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.current-score-value {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: #6a59ff;
+  margin: 0;
+}
+
+.play-again-btn {
+  color: #3d3d3d;
+  background-color: #ffce27;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 16px;
+  padding: 16px 24px;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  order: 0;
+}
+
+.win-or-loss-image {
+  width: 150px;
+  height: 200px;
+}
